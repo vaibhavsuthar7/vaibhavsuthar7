@@ -1,0 +1,99 @@
+<svg width="820" height="180" viewBox="0 0 820 180" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="tBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0d0221"/>
+    <stop offset="100%" stop-color="#1a0933"/>
+  </linearGradient>
+  <linearGradient id="tGold" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fde68a"/>
+    <stop offset="100%" stop-color="#f59e0b"/>
+  </linearGradient>
+  <linearGradient id="tPink" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f9a8d4"/>
+    <stop offset="100%" stop-color="#ec4899"/>
+  </linearGradient>
+  <linearGradient id="tPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#d8b4fe"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+  <linearGradient id="shine2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.4"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <clipPath id="trophyRow"><rect x="0" y="0" width="820" height="180" rx="14"/></clipPath>
+</defs>
+
+<rect x="0.5" y="0.5" width="819" height="179" rx="14" fill="url(#tBg)" stroke="#3d1a66"/>
+
+<g clip-path="url(#trophyRow)">
+<!-- 5 trophy cells -->
+<g font-family="Segoe UI, Arial, sans-serif">
+  <!-- cell template repeated with offsets -->
+  <g transform="translate(20,20)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="20,60" to="20,20" begin="0.2s" dur="0.5s" fill="freeze" additive="replace" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    <rect width="148" height="140" rx="12" fill="#150826" stroke="#3d1a66"/>
+    <text x="74" y="46" text-anchor="middle" font-size="34" fill="url(#tGold)">&#127942;</text>
+    <text x="74" y="76" text-anchor="middle" font-size="12" font-weight="700" fill="#f5f3ff">Data Wrangler</text>
+    <text x="74" y="94" text-anchor="middle" font-size="10" fill="#fde68a">RANK S</text>
+    <rect x="16" y="106" width="116" height="4" rx="2" fill="#f59e0b"/>
+    <rect x="0" y="0" width="50" height="140" fill="url(#shine2)" transform="skewX(-15)">
+      <animate attributeName="x" values="-60;220" begin="1.4s" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(184,20)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.32s" dur="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="184,60" to="184,20" begin="0.32s" dur="0.5s" fill="freeze" additive="replace" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    <rect width="148" height="140" rx="12" fill="#150826" stroke="#3d1a66"/>
+    <text x="74" y="46" text-anchor="middle" font-size="34" fill="url(#tPink)">&#129505;</text>
+    <text x="74" y="76" text-anchor="middle" font-size="12" font-weight="700" fill="#f5f3ff">Dashboard Ace</text>
+    <text x="74" y="94" text-anchor="middle" font-size="10" fill="#f9a8d4">RANK A+</text>
+    <rect x="16" y="106" width="116" height="4" rx="2" fill="#ec4899"/>
+    <rect x="0" y="0" width="50" height="140" fill="url(#shine2)" transform="skewX(-15)">
+      <animate attributeName="x" values="-60;220" begin="1.55s" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(348,20)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.44s" dur="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="348,60" to="348,20" begin="0.44s" dur="0.5s" fill="freeze" additive="replace" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    <rect width="148" height="140" rx="12" fill="#150826" stroke="#3d1a66"/>
+    <text x="74" y="46" text-anchor="middle" font-size="34" fill="url(#tPurple)">&#9889;</text>
+    <text x="74" y="76" text-anchor="middle" font-size="12" font-weight="700" fill="#f5f3ff">Full Stack Builder</text>
+    <text x="74" y="94" text-anchor="middle" font-size="10" fill="#d8b4fe">RANK A</text>
+    <rect x="16" y="106" width="116" height="4" rx="2" fill="#a855f7"/>
+    <rect x="0" y="0" width="50" height="140" fill="url(#shine2)" transform="skewX(-15)">
+      <animate attributeName="x" values="-60;220" begin="1.7s" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(512,20)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.56s" dur="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="512,60" to="512,20" begin="0.56s" dur="0.5s" fill="freeze" additive="replace" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    <rect width="148" height="140" rx="12" fill="#150826" stroke="#3d1a66"/>
+    <text x="74" y="46" text-anchor="middle" font-size="34" fill="url(#tGold)">&#127919;</text>
+    <text x="74" y="76" text-anchor="middle" font-size="12" font-weight="700" fill="#f5f3ff">Insight Hunter</text>
+    <text x="74" y="94" text-anchor="middle" font-size="10" fill="#fde68a">RANK A+</text>
+    <rect x="16" y="106" width="116" height="4" rx="2" fill="#f59e0b"/>
+    <rect x="0" y="0" width="50" height="140" fill="url(#shine2)" transform="skewX(-15)">
+      <animate attributeName="x" values="-60;220" begin="1.85s" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(676,20)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.68s" dur="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="676,60" to="676,20" begin="0.68s" dur="0.5s" fill="freeze" additive="replace" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+    <rect width="124" height="140" rx="12" fill="#150826" stroke="#3d1a66"/>
+    <text x="62" y="46" text-anchor="middle" font-size="34" fill="url(#tPink)">&#128293;</text>
+    <text x="62" y="76" text-anchor="middle" font-size="12" font-weight="700" fill="#f5f3ff">Commit Streak</text>
+    <text x="62" y="94" text-anchor="middle" font-size="10" fill="#f9a8d4">RANK B+</text>
+    <rect x="10" y="106" width="104" height="4" rx="2" fill="#ec4899"/>
+    <rect x="0" y="0" width="50" height="140" fill="url(#shine2)" transform="skewX(-15)">
+      <animate attributeName="x" values="-60;190" begin="2s" dur="2.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</g>
+</g>
+</svg>
