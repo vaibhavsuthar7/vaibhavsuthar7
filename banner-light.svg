@@ -240,7 +240,7 @@
 
 <!-- neon sign -->
 <text x="48" y="678" font-family="'Brush Script MT', cursive, sans-serif" font-size="30" font-weight="bold" fill="#ff2e88" filter="url(#softGlow)" opacity="0">
-  KEEP CODING &#8226; KEEP GROWING
+  TURNING NUMBERS INTO STORIES ✨
   <animate attributeName="opacity" values="0;0.15;0.9;0.25;1;0.4;1" keyTimes="0;0.1;0.15;0.2;0.3;0.35;1" begin="6s" dur="2.4s" fill="freeze"/>
 </text>
 
