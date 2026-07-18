@@ -1,0 +1,54 @@
+<svg width="480" height="230" viewBox="0 0 480 230" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="lBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0d0221"/>
+    <stop offset="100%" stop-color="#1a0933"/>
+  </linearGradient>
+  <linearGradient id="lRing" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ff2e88"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+</defs>
+
+<rect x="0.5" y="0.5" width="479" height="229" rx="14" fill="url(#lBg)" stroke="#3d1a66"/>
+<text x="24" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#f5f3ff">Most Used Languages</text>
+<line x1="24" y1="44" x2="180" y2="44" stroke="url(#lRing)" stroke-width="2"/>
+
+<g font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <!-- JavaScript -->
+  <circle cx="34" cy="72" r="6" fill="#f1e05a"/>
+  <text x="50" y="76" fill="#e9d5ff">JavaScript</text>
+  <text x="456" y="76" text-anchor="end" fill="#c4b5fd">38%</text>
+  <rect x="24" y="84" width="432" height="8" rx="4" fill="#241143"/>
+  <rect x="24" y="84" width="0" height="8" rx="4" fill="#f1e05a">
+    <animate attributeName="width" from="0" to="164" begin="0.4s" dur="1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  </rect>
+
+  <!-- TypeScript -->
+  <circle cx="34" cy="112" r="6" fill="#3178c6"/>
+  <text x="50" y="116" fill="#e9d5ff">TypeScript</text>
+  <text x="456" y="116" text-anchor="end" fill="#c4b5fd">24%</text>
+  <rect x="24" y="124" width="432" height="8" rx="4" fill="#241143"/>
+  <rect x="24" y="124" width="0" height="8" rx="4" fill="#3178c6">
+    <animate attributeName="width" from="0" to="104" begin="0.55s" dur="1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  </rect>
+
+  <!-- Python -->
+  <circle cx="34" cy="152" r="6" fill="#3572A5"/>
+  <text x="50" y="156" fill="#e9d5ff">Python</text>
+  <text x="456" y="156" text-anchor="end" fill="#c4b5fd">21%</text>
+  <rect x="24" y="164" width="432" height="8" rx="4" fill="#241143"/>
+  <rect x="24" y="164" width="0" height="8" rx="4" fill="#3572A5">
+    <animate attributeName="width" from="0" to="91" begin="0.7s" dur="1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  </rect>
+
+  <!-- DAX / Power Query -->
+  <circle cx="34" cy="192" r="6" fill="#f2c811"/>
+  <text x="50" y="196" fill="#e9d5ff">DAX / Power Query</text>
+  <text x="456" y="196" text-anchor="end" fill="#c4b5fd">17%</text>
+  <rect x="24" y="204" width="432" height="8" rx="4" fill="#241143"/>
+  <rect x="24" y="204" width="0" height="8" rx="4" fill="#f2c811">
+    <animate attributeName="width" from="0" to="73" begin="0.85s" dur="1s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  </rect>
+</g>
+</svg>
