@@ -1,0 +1,67 @@
+<svg width="480" height="230" viewBox="0 0 480 230" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="sBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0d0221"/>
+    <stop offset="100%" stop-color="#1a0933"/>
+  </linearGradient>
+  <linearGradient id="sRing" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ff2e88"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+  <linearGradient id="sBar" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ec4899"/>
+    <stop offset="100%" stop-color="#a855f7"/>
+  </linearGradient>
+</defs>
+
+<rect x="0.5" y="0.5" width="479" height="229" rx="14" fill="url(#sBg)" stroke="#3d1a66"/>
+
+<text x="24" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#f5f3ff">Vaibhav's GitHub Stats</text>
+<line x1="24" y1="44" x2="180" y2="44" stroke="url(#sRing)" stroke-width="2"/>
+
+<!-- rank ring -->
+<g transform="translate(90,138)">
+  <circle r="52" fill="none" stroke="#241143" stroke-width="10"/>
+  <circle r="52" fill="none" stroke="url(#sRing)" stroke-width="10" stroke-linecap="round"
+    stroke-dasharray="326.7" stroke-dashoffset="326.7" transform="rotate(-90)">
+    <animate attributeName="stroke-dashoffset" from="326.7" to="68.6" begin="0.4s" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1"/>
+  </circle>
+  <text x="0" y="-2" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#f5f3ff">A+</text>
+  <text x="0" y="18" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#c4b5fd">RANK</text>
+</g>
+
+<!-- stat rows -->
+<g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#e9d5ff">
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.4s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="30,0" to="0,0" begin="0.6s" dur="0.4s" fill="freeze"/>
+    <text x="180" y="76">Total Repositories</text>
+    <rect x="180" y="84" width="0" height="7" rx="3.5" fill="url(#sBar)">
+      <animate attributeName="width" from="0" to="230" begin="0.8s" dur="1s" fill="freeze"/>
+    </rect>
+    <text x="440" y="76" text-anchor="end" fill="#f5f3ff" font-weight="700">4+</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.8s" dur="0.4s" fill="freeze"/>
+    <text x="180" y="112">Datasets Analyzed</text>
+    <rect x="180" y="120" width="0" height="7" rx="3.5" fill="url(#sBar)">
+      <animate attributeName="width" from="0" to="260" begin="1s" dur="1s" fill="freeze"/>
+    </rect>
+    <text x="440" y="112" text-anchor="end" fill="#f5f3ff" font-weight="700">2.56L+</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1s" dur="0.4s" fill="freeze"/>
+    <text x="180" y="148">Projects Shipped</text>
+    <rect x="180" y="156" width="0" height="7" rx="3.5" fill="url(#sBar)">
+      <animate attributeName="width" from="0" to="200" begin="1.2s" dur="1s" fill="freeze"/>
+    </rect>
+    <text x="440" y="148" text-anchor="end" fill="#f5f3ff" font-weight="700">6+</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.4s" fill="freeze"/>
+    <text x="180" y="184">Certifications</text>
+    <rect x="180" y="192" width="0" height="7" rx="3.5" fill="url(#sBar)">
+      <animate attributeName="width" from="0" to="150" begin="1.4s" dur="1s" fill="freeze"/>
+    </rect>
+    <text x="440" y="184" text-anchor="end" fill="#f5f3ff" font-weight="700">4</text>
+  </g>
+</g>
+
+<text x="24" y="216" font-family="Consolas, monospace" font-size="10" fill="#6d28d9">updated manually &#183; see profile for live activity</text>
+</svg>
